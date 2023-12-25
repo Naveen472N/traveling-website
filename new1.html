@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Search Field</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .search-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-input {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid darkgray;
+            border-radius: 25px 0 0 25px;
+            outline: none;
+            font-size: 16px;
+            transition: width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .search-input:focus {
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-button {
+            padding: 10px;
+            background-color: darkgrey;
+            color: #fff;
+            border: none;
+            border-radius: 0 25px 25px 0;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .search-button:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search">
+        <button class="search-button">&#128269;</button>
+    </div>
+
+</body>
+
+</html>

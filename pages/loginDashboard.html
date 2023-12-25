@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Young Serif', serif;
+        }
+
+        .divider-text {
+            position: relative;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+
+        .divider-text span {
+            padding: 7px;
+            font-size: 12px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .divider-text:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            top: 55%;
+            left: 0;
+            z-index: 1;
+        }
+
+        .btn-facebook {
+            background-color: #405D9D;
+            color: #fff;
+        }
+
+        .btn-twitter {
+            background-color: #42AEEC;
+            color: #fff;
+        }
+
+
+        .card-img-top {
+            border-radius: 30px;
+        }
+
+        #enroll {
+            height: 500px;
+        }
+
+        * {
+            box-sizing: border-box;
+            border: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .container {
+            width: 450px;
+            height: 500px;
+            background-color: white;
+            border: 2px solid rosybrown;
+            margin-left: 550px;
+            margin-top: 100px;
+            border-radius: 40px;
+
+        }
+
+        #uname,
+        #pwd {
+            width: 420px;
+            height: 50px;
+            color: black;
+            margin-left: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h5 {
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        #b1 {
+            margin-left: 100px;
+            margin-top: 10px;
+            border: 2px solid black;
+            width: 250px;
+            height: 50px;
+            border-radius: 50px;
+        }
+
+        span {
+            margin-left: 100px;
+            font-size: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #uepe {
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        li {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <img src=https://document-export.canva.com/8UMak/DAFynL8UMak/17/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20231206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231206T061627Z&X-Amz-Expires=37865&X-Amz-Signature=3747fc6cecc73bbc1fd166c986303cabd39f0fb1c19a7cbca20f6f7751437a27&X-Amz-SignedHeaders=host&response-expires=Wed%2C%2006%20Dec%202023%2016%3A47%3A32%20GMT
+                        style="width: 5%;" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="Home.html">Home
+                                    <span class="sr-only"></span>
+                                </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact
+                                    Us</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                    id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false"> Services </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Food</a> <a class="dropdown-item"
+                                        href="#">Rooms</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Other</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">About
+                                    Us</a></li>
+                            <li class="nav-item">
+                                <div style="border-radius: 30px;">
+                                    <button type="button" class="btn btn-twitter" data-toggle="modal"
+                                        data-target="#myModal">Login</button>
+                                    <div id="myModal" class="modal fade " role="dialog">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close"
+                                                        data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div style="background-color: white; border-radius: 30px;">
+                                                        <form action="login" method="post">
+                                                            <table>
+                                                                <h1
+                                                                    style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+                                                                    Login Here</h1>
+                                                                <tr>
+
+                                                                    <td><input type="text" id="uname" name="email"
+                                                                            placeholder="please enter email"
+                                                                            style="background-color: white; border: none; border-bottom: 2px solid blue; outline: none; font-size: 20px;" />
+                                                                        <span id="usererror"></span>
+                                                                        <hr>
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+
+                                                                    <td><input type="text" id="pwd" name="password"
+                                                                            placeholder="please enter password"
+                                                                            style="background-color: white; border: none; border-bottom: 2px solid blue; outline: none; font-size: 20px;" />
+                                                                        <span id="pwderror"></span>
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                <tr>
+
+                                                                    <td><a href="#"
+                                                                            style="color: red; font-family: fantasy;">
+                                                                            <h6 data-toggle="modal"
+                                                                                data-target="#exampleModal"
+                                                                                style="margin-top: 10px; margin-left: 10px;">
+                                                                                Forgot password ?</h6>
+                                                                        </a></td>
+
+                                                                </tr>
+                                                                <td data-toggle="modal" data-target="#myModal">
+
+                                                                    <input type="submit" value="LOGIN"
+                                                                        class="btn btn-twitter"
+                                                                        style="margin-left: 35%; font-size: 25px; border-radius: 40px;" />
+                                                                </td>
+                                                                </tr>
+                                                                </tr>
+                                                                <td><span style="font-size: 15px;">Not a
+                                                                        member ? <a href="#" data-toggle="modal"
+                                                                            data-target="#exampleModal">Signup</a>
+                                                                    </span></td>
+                                                                </tr>
+                                                            </table>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default btn-outline-danger"
+                                                        data-dismiss="modal" style="border-radius: 30px;">Close</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Enter Email"
+                                aria-label="Search">
+                        </form>
+                        <ul class="navbar-nav mr-auto ml-5">
+                            <li>
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-twitter" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                        Register</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body" style="background-color: darkgray">
+                                                    <div class="registration-container">
+                                                        <div style="background-color: white;">
+                                                            <article class="card-body mx-auto"
+                                                                style="max-width: 400px; background-color: white;">
+                                                                <h4 class="card-title mt-3 text-center">Register
+                                                                    Here</h4>
+                                                                <p class="text-center">Get started with your free
+                                                                    account</p>
+                                                                <p>
+                                                                    <a href="" class="btn btn-block btn-twitter"> <i
+                                                                            class="fab fa-twitter"></i> Login via
+                                                                        Twitter
+                                                                    </a> <a href="" class="btn btn-block btn-facebook">
+                                                                        <i class="fab fa-facebook-f"></i>Login via
+                                                                        facebook
+                                                                    </a>
+                                                                </p>
+                                                                <p class="divider">
+                                                                    <span
+                                                                        style="background-color: white; margin-left: 50%;">OR</span>
+                                                                </p>
+                                                                <form action="user" method="post">
+                                                                    <input type="text"
+                                                                        style="border: 2px solid black; width: 100%;"
+                                                                        placeholder="Name" name="name"> <br>
+                                                                    <br> <input type="email"
+                                                                        style="border: 2px solid black; width: 100%;"
+                                                                        placeholder="email" name="email"> <br>
+                                                                    <br> <input type="text"
+                                                                        style="border: 2px solid black; width: 100%;"
+                                                                        placeholder="Password" name="password"> <br>
+                                                                    <br> <input type="password"
+                                                                        style="border: 2px solid black; width: 100%;"
+                                                                        placeholder="Confirm password" name="confirm">
+                                                                    <br>
+                                                                    <br>
+                                                                    <input type="submit" class="btn btn-danger"
+                                                                        value="register" />
+                                                                    <p class="text-center">
+                                                                        Have an account? <a href="">Log In</a>
+                                                                    </p>
+                                                                </form>
+                                                            </article>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+            </div>
+            </li>
+            </ul>
+        </div>
+        </nav>
+        <br>
+        <br>
+        <div class="bg-info">
+            <h1 style="text-align: center; color:black">
+                My Trips
+            </h1>
+        </div>
+        <table class="table" type="bordered">
+
+            <tr>
+                <td>
+                    <h5 style="text-align: center; margin-top: 10%;">1</h5>
+                </td>
+                <td><img src="https://document-export.canva.com/mopQY/DAFynVmopQY/1/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20231206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231206T013925Z&X-Amz-Expires=56667&X-Amz-Signature=c618f425fb63228fa6fc4b10337815d3235a48ab824f79fcc7a8bdb2e3bdb1b9&X-Amz-SignedHeaders=host&response-expires=Wed%2C%2006%20Dec%202023%2017%3A23%3A52%20GMT"
+                        alt=""></td>
+                <td>
+                    <h2 style="text-align: center; margin-top: 10%;">Your Trip is Booked</h2>
+                </td>
+            </tr>
+
+
+        </table>
+        <div style="height: 900px;">
+
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
